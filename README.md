@@ -29,7 +29,6 @@ This is the source file your game will use to choose the secret word.
 
 This is a test file with only ONE word in it, instead of 58,000. It's a lot easier to think about one word while you're developing the game. You can change it if you want.
 
-
 ## Minimum Requirements
 
 Your program should run when you run this file like this:
@@ -43,9 +42,11 @@ The computer (that's you, writing this in Python code) must select a word at ran
 ### Game Flow
 
 1. At the start of the game, let the user know how many letters the secret word contains.
-
+<!-- maybe make an input and have it say "Would you like to play a 4 letter game?" set that equal to a easy  -->
 2. Ask the user to supply one guess (i.e. letter) per round. This letter can be upper or lower case and it should not matter. If a user enters more than one letter, tell them the input is invalid and let them try again.
-
+<!-- Another input saying how to play
+"How to play:
+Player is allowed to guess letter per round. This letter can be UPPER or lower case" -->
 3. Let the user know if their guess appears in the secret word.
 
 4. Display the partially guessed word, as well as letters that have not been guessed. For example, if the word is BOMBARD and the letters guessed are `a`, `b`, and `d`, the screen should display:
